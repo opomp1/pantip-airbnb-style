@@ -1,8 +1,13 @@
 import React from "react";
-import "./App.css";
+import MainNav from "./Navigation/MainNav";
 
 function App() {
-  return <div className="font-bold text-8xl">Hello</div>;
+  return (
+    <div>
+      <MainNav />
+      <div className="font-bold text-8xl">Hello</div>
+    </div>
+  );
 }
 
 export default App;
