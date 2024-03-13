@@ -7,9 +7,9 @@ import { BiMessageAltAdd } from "react-icons/bi";
 const MainNav = () => {
   return (
     <div className="flex flex-col pt-5 pb-6 border-b w-[100vw] bg-white z-10 justify-center items-center gap-4">
-      <div className="hidden md:grid grid-cols-3 px-16 w-full">
+      <div className="hidden md:grid grid-cols-3 px-12 lg:px-16 w-full">
         {/* Logo */}
-        <div className="w-20 h-20">
+        <div className="w-20 h-20 flex items-center justify-center">
           {/* <h2 className="text-purple-500 flex items-center">Pantip</h2> */}
           <img src="/logo2.png" alt="Pantip Logo" className="" />
         </div>
@@ -28,8 +28,8 @@ const MainNav = () => {
           </ul>
         </div>
         {/* Profile Setting*/}
-        <div className="hidden md:flex text-xl items-center gap-12 justify-self-end">
-          <div className="flex items-center gap-4 cursor-pointer">
+        <div className="hidden md:flex text-xl items-center gap-4 justify-self-end">
+          <div className="flex items-center gap-2 cursor-pointer">
             <BiMessageAltAdd />
             <h2>ตั้งกระทู้</h2>
           </div>
