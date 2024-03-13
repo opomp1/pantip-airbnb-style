@@ -1,11 +1,18 @@
 import React from "react";
 import MainNav from "./Navigation/MainNav";
+import Room from "./Pages/Room";
+import Announce from "./Pages/Announce";
+import Highlight from "./Pages/Highlight";
+import Realtime from "./Pages/Realtime";
 
 function App() {
   return (
-    <div>
+    <div className="flex flex-col items-center gap-8 px-4 lg:px-32 w-[100vw] max-w-[1980px] relative">
       <MainNav />
-      <div className="font-bold text-8xl">Hello</div>
+      <Room />
+      <Announce />
+      <Highlight />
+      <Realtime />
     </div>
   );
 }

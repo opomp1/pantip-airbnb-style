@@ -6,7 +6,7 @@ import { TbWorld } from "react-icons/tb";
 
 const MainNav = () => {
   return (
-    <div className="grid mt-5">
+    <div className="grid pt-5 pb-6 border-b w-[100vw] sticky top-0 bg-white z-10">
       <div className="hidden md:grid grid-cols-3 px-16">
         {/* Logo */}
         <h2 className="text-purple-500">Pantip</h2>
