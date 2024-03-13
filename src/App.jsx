@@ -5,6 +5,7 @@ import Announce from "./Pages/Announce";
 import Highlight from "./Pages/Highlight";
 import Realtime from "./Pages/Realtime";
 import MobileNav from "./Navigation/MobileNav";
+import Footer from "./Pages/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Highlight />
       <Realtime />
       <MobileNav />
+      <Footer />
     </div>
   );
 }

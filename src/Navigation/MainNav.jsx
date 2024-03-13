@@ -15,12 +15,16 @@ const MainNav = () => {
         </div>
         {/* Seach Box */}
         <div className="px-4 grow flex justify-center items-center">
-          <ul className="flex flex-wrap justify-center md:gap-3 lg:gap-8">
-            <li className="cursor-pointer ">หน้าแรก</li>
-            <li className="cursor-pointer font-thin">My feed</li>
+          <ul className="flex flex-wrap justify-center md:gap-3 lg:gap-12">
+            <li className="cursor-pointer font-semibold">หน้าแรก</li>
+            <li className="cursor-pointer text-gray-400 font-semibold">
+              My feed
+            </li>
             {/* <li>Pantip Pick</li>
             <li>Pantip Hitz</li> */}
-            <li className="cursor-pointer font-thin">Explore</li>
+            <li className="cursor-pointer text-gray-400 font-semibold">
+              Explore
+            </li>
           </ul>
         </div>
         {/* Profile Setting*/}
