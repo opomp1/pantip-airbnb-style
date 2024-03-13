@@ -25,20 +25,6 @@ const RoomIcon = (props) => {
 };
 
 const Room = () => {
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  const scrollLeft = () => {
-    if (scrollPosition > 0) {
-      setScrollPosition(scrollPosition - 1);
-    }
-  };
-
-  const scrollRight = () => {
-    // You may need to adjust the condition here based on your design
-    if (scrollPosition < 5) {
-      setScrollPosition(scrollPosition + 1);
-    }
-  };
   return (
     <div className="slider-container w-[100%] flex flex-wrap md:gap-2 justify-evenly">
       {/* <div
