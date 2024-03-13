@@ -4,6 +4,7 @@ import Room from "./Pages/Room";
 import Announce from "./Pages/Announce";
 import Highlight from "./Pages/Highlight";
 import Realtime from "./Pages/Realtime";
+import MobileNav from "./Navigation/MobileNav";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Announce />
       <Highlight />
       <Realtime />
+      <MobileNav />
     </div>
   );
 }
